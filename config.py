@@ -1,12 +1,12 @@
 import os
 import ProxyCloud
 
-BOT_TOKEN = '5277008415:AAFVOIjwftp59g3XODLR9olnnzadsMdkxMo' #Aqui va el token del bot
-API_ID =  15558101 #Tu api id de telegram
-API_HASH = 'c2cbb2f07c44fe466076fbe65e3c00cc' #Tu api id de telegram
+BOT_TOKEN = '5882104609:AAE4Pt6D8WK-PPaCa47U8q0EbOJGS9odb3o' #Aqui va el token del bot
+API_ID =  9902519 #Tu api id de telegram
+API_HASH = '9d8097d05bbc90a6ed2a7a81abcd4e8a' #Tu api id de telegram
 SPLIT_FILE = 1024 * 1024 * int(os.environ.get('split_file','99'))
 ROOT_PATH = 'root/'
-ACCES_USERS = os.environ.get('tl_admin_user','Elnietodecacha').split(';')
+ACCES_USERS = os.environ.get('tl_admin_user','Abolanos3').split(';')
 
 static_proxy = 'http://KKDHKGYIJJJJGJYEJGGHGIYGKFEGGIREDJLJDHLH'
 PROXY = ProxyCloud.parse(static_proxy)
@@ -20,5 +20,5 @@ if PROXY:
 #ponerlos valor 0 siempre
 
 space = {}
-space['Elnietodecacha'] = 0
+space['Abolanos3'] = 0
 
